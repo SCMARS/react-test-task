@@ -4,8 +4,7 @@ import { Router, Request, Response } from "express";
 import axios from "axios";
 
 const router = Router();
-const API_BASE = process.env.API_BASE_URL || "https://www.themealdb.com/api/json/v1/1";
-
+const API_BASE = "https://www.themealdb.com/api/json/v1/1";
 
 router.get("/", async (req: Request, res: Response) => {
   try {
