@@ -1,36 +1,82 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Sure, Gleb! Here’s a clean and professional README in English tailored for your React/Next.js frontend project:
 
-## Getting Started
+⸻
 
-First, run the development server:
+README.md for react-test-task
 
-```bash
+# React Test Task — Personal Expenses Tracker (Frontend)
+
+This is the frontend part of a Personal Expenses Tracker application built with Next.js and TypeScript.
+
+---
+
+## Project Overview
+
+The application allows users to:
+- Authenticate (login/register) (if implemented)
+- Add, edit, and delete expenses
+- View expense history
+- Filter and sort expenses
+
+---
+
+## Technologies Used
+
+- React 18 / Next.js 13 (app-router)
+- TypeScript
+- Tailwind CSS (if used)
+- Firebase / Supabase (if connected)
+- Axios / fetch for API calls
+- Git and GitHub for version control
+
+---
+
+## Project Structure
+
+frontend/
+├── public/            # Static assets (icons, images)
+├── src/
+│   ├── app/           # Next.js app router pages and routes
+│   ├── components/    # Reusable React components
+│   ├── lib/           # Utility functions and API methods
+│   ├── styles/        # Styles (if any)
+│   └── types/         # TypeScript types
+├── package.json       # Dependencies and scripts
+├── tsconfig.json      # TypeScript configuration
+├── next.config.ts     # Next.js configuration
+└── README.md          # This file
+
+---
+
+## Getting Started Locally
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/SCMARS/react-test-task.git
+
+	2.	Navigate to the frontend folder:
+
+cd react-test-task/frontend
+
+
+	3.	Install dependencies:
+
+npm install
+
+
+	4.	Run the development server:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+	5.	Open http://localhost:3000 in your browser.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+⸻
 
-## Learn More
+Features
+•	Next.js 13 with app-router
+•	Written in TypeScript
+•	API integration for backend communication
+•	Responsive design support (if applicable)
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
